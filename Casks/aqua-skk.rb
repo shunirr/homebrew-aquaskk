@@ -1,7 +1,7 @@
 class AquaSkk < Cask
-  url 'http://jaist.dl.sourceforge.jp/aquaskk/58814/AquaSKK-4.2.dmg'
-  homepage 'http://aquaskk.sourceforge.jp/'
-  sha256 '2370ba379a1b5f4e5cc3bf3821ba396b713b7ff7ebfa0c2324c7a4c933324f1d'
-  version '4.2'
+  url 'https://github.com/codefirst/aquaskk/releases/download/4.2.5/AquaSKK-4.2.5.dmg'
+  homepage 'https://github.com/codefirst/aquaskk'
+  sha256 '281e65c0687b0c558c26a4cb7929ac1dfe61dabfa75ac5b6be08bf4f53b49b86'
+  version '4.2.5'
   install 'AquaSKK.pkg'
 end
